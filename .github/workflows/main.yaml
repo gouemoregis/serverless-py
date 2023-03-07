@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - "main"
-      - "feature/git_workflow"
       - "master"
+      - "feature/github_workflow"
+      - "main"
 
 jobs:
   test:
